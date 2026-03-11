@@ -2,3 +2,5 @@ hiittrack-web.code-workspace
 FEATURES.md
 .gitignore
 MARKETING.md
+screenshots/originals/*
+screenshots/optimize.sh
