@@ -1,108 +1,107 @@
-# HIIT Track — Features
+# HIITTrack — Features
 
-## Workout Timer
+No fluff. Here's what the app does and why it matters.
 
-- **One-tap start** — Large circular START button gets you moving instantly
-- **3-2-1-GO countdown** — Animated countdown with audio cues before your workout begins
-- **Visual progress ring** — Circular progress indicator shows time remaining in each interval
-- **Interval progress bar** — See which interval you're on (e.g., "Interval 3 of 10")
-- **Phase display** — Clear "WORKOUT" / "REST" / "GET READY" / "COMPLETE" indicators
-- **Pause & resume** — Pause your workout at any time; paused time is tracked separately
-- **Manual advance** — Optional manual control to skip to the next interval
-- **Stop with confirmation** — End early with a confirmation dialog; progress is always saved
+---
+
+## One-Tap Timer
+
+Big START button. 3-2-1-GO countdown with audio cues. Work and rest intervals that fire every time — no lag, no crashes. Pause, resume, skip ahead, or stop early. Your progress is always saved.
+
+No menus to dig through. No onboarding flow. Open the app and train.
 
 ## Real-Time Intensity Tracking
 
-- **Accelerometer-based intensity** — Uses device motion data at 50Hz to measure workout effort in real time
-- **Live intensity meter** — Color-coded bar (green → yellow → orange → red) during workout intervals
-- **Dynamic max scaling** — Intensity scale automatically adjusts if you exceed the default 10-point range
-- **Per-second data capture** — Second-by-second intensity recorded for every interval
-- **Per-interval breakdown** — Average and peak intensity stored for each workout round
+Your phone already has a 50Hz accelerometer. HIITTrack turns it into a real-time intensity meter — no Apple Watch, no chest strap, no wearable required.
+
+- Live color-coded bar (green → yellow → orange → red) during every interval
+- Second-by-second intensity recorded per round
+- Dynamic scaling that adjusts if you exceed the default range
+- Per-interval breakdown: average and peak intensity stored automatically
+
+Just your phone in your pocket. That's it.
 
 ## Exercise Tagging
 
-- **"What did you just do?"** — During rest periods, tap to label the exercise you just completed
-- **14 built-in exercise types** — Jumping Jacks, Burpees, High Knees, Mountain Climbers, Squats, Lunges, Push-ups, Plank, Sprinting, Bicycle Crunches, Box Jumps, Jump Rope, Kettlebell Swings, and Other
-- **Custom exercise list** — Add, remove, and reorder exercises in Settings
-- **Top 8 shown during workout** — Only your most-used exercises appear in the quick-select grid
-- **Persistent selection** — Last selected exercise is remembered between rounds
+During rest: "What did you just do?" Tap to label each round.
 
-## Configurable Settings
+- 14 built-in exercises (Burpees, Sprints, Plank, High Knees, and more)
+- Add your own custom exercises in Settings
+- Top 8 most-used appear in the quick-select grid — no scrolling
+- Last selection remembered between rounds
 
-- **Workout interval** — 10 to 180 seconds (default 30s)
-- **Rest interval** — 10 to 180 seconds (default 30s)
-- **Total workout time** — 5 to 60 minutes in 5-minute increments (default 30 min)
-- **Manual interval restart** — Toggle auto-advance vs. manual "Next" control
-- **Reset to defaults** — One-tap restore of all settings
+Every round gets a name. Every name gets analysis.
+
+## Customizable Intervals
+
+Make it yours:
+
+- Work intervals: 10–180 seconds
+- Rest intervals: 10–180 seconds
+- Total time: 5–60 minutes
+- Manual interval control for paced training
+- One-tap reset to defaults
+
+No opinions about how you should train. Set your numbers and go.
 
 ## Workout History
 
-- **Persistent storage** — All workouts saved via Core Data
-- **Completion status** — Completed vs. partial workouts clearly badged
-- **Per-workout stats** — Workout/rest intervals, total duration, average intensity, interval count
-- **Mini intensity chart** — Small bar chart preview on each history row showing per-round intensity
-- **Swipe to delete** — Remove old workouts with a swipe gesture
-- **Tap for details** — Full workout detail view with charts and insights
+Every session saved. Swipe to delete what you don't want.
 
-## Workout Detail & Analytics
+- Completion badges (finished vs. partial)
+- Per-workout stats: intervals, duration, intensity, round count
+- Mini intensity bar chart on every history row
+- Tap any workout for the full detail view
 
-- **Intensity by Round chart** — Bar chart with average intensity per round, colored by exercise type, with peak markers
-- **Exercise breakdown** — Grouped cards for each exercise type used, with round count, average intensity, and mini sparkline
-- **Tap to drill down** — Each exercise group opens a detailed sheet with:
-  - Intensity over time (single-interval line chart or multi-interval overlay)
-  - Per-round analysis with expandable disclosure groups
-  - AI-generated insights
-  - Actionable exercise-specific tips
+Your data lives on your device. No cloud. No account. No sync.
 
-## AI-Powered Workout Insights
+## Workout Detail & Charts
 
-- **Exercise-specific analysis profiles** — Each of the 14 exercise types has a unique analysis profile with expected intensity patterns, ideal ranges, and coefficient-of-variation thresholds
-- **Intensity level analysis** — Compares your average intensity to the ideal range for each exercise
-- **Consistency analysis** — Detects if your form was too steady (missing explosiveness) or too variable (losing rhythm)
-- **Fatigue detection** — Compares first-half vs. second-half intensity to identify drop-off
-- **Progression tracking** — Across multiple rounds of the same exercise, detects building momentum or progressive fatigue
-- **Rep estimation** — For rep-based exercises (squats, push-ups, burpees), estimates rep count from intensity peaks
-- **Cadence analysis** — For explosive exercises, calculates average seconds-per-rep
-- **Exercise variety scoring** — Rewards using multiple exercise types in a single workout
-- **Strongest exercise identification** — Highlights your highest-intensity exercise
-- **Personalized tips** — Context-aware recommendations per exercise (e.g., "Focus on breathing steadily" for planks, "Push for 80-90% effort" for sprinting)
+Tap into any session for the deep dive:
+
+- Intensity-by-round bar chart, colored by exercise type, with peak markers
+- Exercise breakdown cards with round count, average intensity, and sparklines
+- Drill-down sheets per exercise: line charts, per-round analysis, and AI insights
+
+Built with Swift Charts. Native, fast, no web views.
+
+## AI-Powered Insights
+
+Not generic stats. Exercise-specific analysis profiles for all 14 built-in exercises:
+
+- **Intensity analysis** — Your effort vs. the ideal range for each exercise
+- **Consistency scoring** — Too steady (missing explosiveness) or too variable (losing rhythm)?
+- **Fatigue detection** — First-half vs. second-half drop-off
+- **Progression tracking** — Building momentum or burning out across rounds?
+- **Rep estimation** — Approximate rep counts from motion patterns alone
+- **Cadence analysis** — Seconds-per-rep for explosive movements
+- **Personalized tips** — "Squeeze your glutes and pull your belly button in" for planks, "Push for 80–90% effort" for sprints
+
+All on-device. No data leaves your phone.
 
 ## Audio & Haptics
 
-- **Countdown beeps** — Tick sounds during the 3-2-1 countdown
-- **GO tone** — Distinct sound when the workout begins
-- **Interval warning beeps** — Audio cues during the final 3 seconds of each work/rest interval
-- **Phase transition sound** — Audio feedback when switching between workout and rest
-- **Completion celebration** — Fanfare sound when the workout is finished
-- **Haptic feedback** — Light, medium, heavy, success, and warning haptics at appropriate moments
-- **Silent mode support** — Audio plays even when the device is in silent mode
+Train by feel, not by staring at your screen:
 
-## Workout Summary
-
-- **End-of-workout summary** — Shows all completed intervals as scrollable cards with exercise icons and intensity bars
-- **Overall stats** — Average intensity, peak intensity, and total intervals at a glance
-- **Done to dismiss** — Single tap returns to the home screen
+- Countdown ticks, GO tone, interval warning beeps, phase-change sounds
+- Completion celebration fanfare
+- Light, medium, and heavy haptic feedback at the right moments
+- Works in silent mode
 
 ## Accessibility
 
-- **VoiceOver support** — Descriptive labels and hints on all interactive elements
-- **Accessibility traits** — Headers, buttons, and combined elements properly annotated
-- **Dynamic Type** — System font scaling with `.rounded` design
-- **High contrast** — White-on-gradient color scheme with distinct phase colors (yellow, green, orange, white)
+- Full VoiceOver support with descriptive labels
+- Dynamic Type with `.rounded` design
+- High-contrast color scheme
+- Proper header, button, and element traits
 
-## Background Handling
+## Technical Details
 
-- **Auto-pause on background** — Timer pauses when the app leaves the foreground
-- **Manual resume** — Tap to resume when returning to the app
-- **State preservation** — Workout state maintained across app lifecycle transitions
-
-## Technical Foundation
-
-- **SwiftUI** — Fully declarative UI
-- **Core Data** — Persistent workout storage with `NSPersistentContainer`
-- **UserDefaults** — Lightweight settings persistence
-- **Swift Charts** — Native charting for intensity visualizations
-- **CoreMotion** — Accelerometer data collection at 50Hz
-- **AVFoundation** — System sound playback
-- **UIKit haptics** — `UIImpactFeedbackGenerator` and `UINotificationFeedbackGenerator`
-- **iOS 17.0+** / **Xcode 15.0+** / **Swift 5.9+**
+- SwiftUI — fully declarative
+- Core Data — persistent workout storage
+- Swift Charts — native charting
+- CoreMotion — 50Hz accelerometer
+- AVFoundation — audio playback
+- UIKit haptics
+- 100% on-device — no network calls, no analytics SDKs, no third-party frameworks
+- iOS 17.0+ / Xcode 15.0+ / Swift 5.9+
