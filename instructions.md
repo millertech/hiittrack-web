@@ -162,10 +162,10 @@ The site is a single `index.html` page with eight distinct sections:
 - [ ] If the app is NOT yet live: uncomment the "Coming soon" banners and hide or disable the App Store buttons
 
 ### Performance & SEO
-- [ ] Test page load speed (Lighthouse or PageSpeed Insights) — target 90+ score
+- [X] Test page load speed (Lighthouse or PageSpeed Insights) — target 90+ score.... 100!
 - [ ] Verify `og:url` meta tag matches the live domain (`https://www.hiittrack.com/`)
 - [ ] Test on multiple devices/browsers (Safari iOS, Chrome Android, desktop)
-- [ ] Confirm HTTPS is working correctly with the custom domain
+- [X] Confirm HTTPS is working correctly with the custom domain
 
 ### Final
 - [ ] Do a full read-through of all site copy for typos and tone
