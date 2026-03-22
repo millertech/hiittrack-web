@@ -6,40 +6,11 @@
 
 ---
 
-## Short Description (30 words)
+## App Store Subtitle (30 characters max)
 
-HIITTrack measures your real workout intensity using your phone's accelerometer — no wearable required. AI-powered insights per exercise. No tracking, no ads, no subscriptions. Just train.
+Real-Time Intensity. AI Insights.
 
----
-
-## App Store Description
-
-### Train smarter. Not just harder.
-
-HIITTrack isn't another countdown timer. It's the first HIIT app that actually *measures* how hard you're working — in real time — using the accelerometer already in your iPhone.
-
-**Start in one tap.** Big START button, animated 3-2-1 countdown with audio cues. No menus, no fumbling, no onboarding flow.
-
-**See your effort live.** A color-coded intensity meter pulses from green to red as you push harder. Every second of every interval is captured automatically.
-
-**Tag your exercises.** During rest, tap what you just did — Burpees, Sprinting, Plank, and 11 more — so every round is labelled and trackable.
-
-**Get real insights, not just numbers.** After your workout, HIITTrack analyzes every interval with exercise-specific intelligence:
-
-- Were your burpees explosive enough?
-- Did your plank stay rock-solid or start to wobble?
-- Are you fatiguing toward the end, or finishing strong?
-- How many reps did you likely complete?
-
-Every insight is tailored to the exercise you performed — because a plank and a sprint are two very different things.
-
-**Review your history.** Scroll through past workouts with mini intensity charts, drill into any session for round-by-round breakdowns, and watch your performance evolve over time.
-
-**Make it yours.** Customize work intervals (10–180s), rest intervals (10–180s), total time (5–60 min), and your exercise list. Toggle manual interval control for paced training.
-
-**Sounds & haptics that keep you in the zone.** Countdown ticks, phase-change tones, and celebration sounds — plus haptic feedback you can feel through your grip — so you never have to stare at the screen mid-burpee.
-
-**Your data stays on your device.** No accounts. No cloud. No analytics. No third-party SDKs. We don't know who you are, and we like it that way.
+*(33 characters — trim to "Real-Time Intensity & AI Insights" at 34, or use "Intensity Tracking & AI Insights" at 32 if needed)*
 
 ---
 
@@ -115,7 +86,64 @@ Every insight is tailored to the exercise you performed — because a plank and 
 
 ---
 
-## App Store Keywords
+## Promotional Text (170 characters max)
+
+> Measure your real workout intensity with just your phone — no wearable needed. AI insights for every exercise. No tracking, no ads, no subscriptions. Just train.
+
+*(160 characters)*
+
+---
+
+## App Store Description (ready to paste)
+
+Train smarter. Not just harder.
+
+HIITTrack isn't another countdown timer. It's the best HIIT app that actually measures how hard you're working — in real time — using the accelerometer already in your iPhone.
+
+ONE TAP. 3-2-1-GO.
+Big START button. Animated countdown with audio cues. No menus, no fumbling, no onboarding flow. Open it and train.
+
+REAL-TIME INTENSITY TRACKING
+A color-coded intensity meter pulses from green to red as you push harder. Every second of every interval is captured automatically — no Apple Watch, no chest strap, no wearable required. Just your phone in your pocket.
+
+TAG YOUR EXERCISES
+During rest, tap what you just did — Burpees, Sprints, Plank, High Knees, and more — so every round is labelled and trackable. 14 built-in exercises plus your own custom entries.
+
+EXERCISE-SPECIFIC AI INSIGHTS
+After your workout, HIITTrack analyzes every interval with intelligence tailored to each exercise:
+
+• Were your burpees explosive enough?
+• Did your plank stay rock-solid or start to wobble?
+• Are you fatiguing toward the end, or finishing strong?
+• How many reps did you likely complete?
+
+WORKOUT HISTORY & CHARTS
+Scroll through past workouts with mini intensity charts. Drill into any session for round-by-round breakdowns with per-exercise sparklines. Watch your performance evolve over time.
+
+FULLY CUSTOMIZABLE
+• Manual interval control for paced training
+• Audio cues, haptic feedback, and countdown beeps
+
+AUDIO & HAPTICS
+Countdown ticks, phase-change tones, and celebration sounds — plus haptic feedback you can feel through your grip — so you never have to stare at your screen mid-burpee.
+
+YOUR DATA STAYS ON YOUR DEVICE
+No accounts. No cloud. No analytics. No third-party SDKs. 100% on-device. We don't know who you are, and we like it that way.
+
+ONE-TIME PURCHASE
+Pay once, own it forever. No subscriptions. No "$3.99/month after your free trial" nonsense.
+
+---
+
+## App Store Keywords (100 characters max)
+
+`HIIT,interval timer,workout tracker,intensity,fitness,tabata,home workout,bodyweight,exercise,reps`
+
+*(98 characters)*
+
+---
+
+## Legacy Keywords (reference only)
 
 `HIIT, interval timer, workout tracker, intensity, accelerometer, exercise, fitness, tabata, circuit training, home workout, bodyweight, high intensity, workout insights, rep counter, privacy`
 

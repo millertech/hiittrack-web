@@ -134,28 +134,28 @@ The site is a single `index.html` page with eight distinct sections:
 - [ ] Verify App Store link opens correctly on iOS devices
 
 ### Pricing
-- [ ] Confirm `$6.99` matches the actual App Store price
-- [ ] Update pricing copy if the free/paid tier structure changes
+- [X] Confirm `$6.99` matches the actual App Store price
+- [X] Update pricing copy if the paid tier structure 
 
 ### Branding & Assets
-- [ ] Replace the emoji placeholder (`⏱`) with the real app icon (`icon.png`)
-- [ ] Add an `og:image` meta tag with a social sharing preview image (1200×630 recommended)
-- [ ] Add a favicon (`favicon.ico` or `favicon.png`)
+- [X] Replace the emoji placeholder (`⏱`) with the real app icon (`icon.png`)
+- [X] Add an `og:image` meta tag with a social sharing preview image (1200×630 recommended)
+- [X] Add a favicon (`favicon.ico` or `favicon.png`)
 
 ### Screenshots
-- [ ] Verify all four screenshots are final and up to date
-- [ ] Optimize PNGs for web (compress with TinyPNG or similar to reduce load time)
+- [X] Verify all four screenshots are final and up to date
+- [X] Optimize PNGs for web (compress with TinyPNG or similar to reduce load time)
 
 ### Email Signup
-- [ ] Replace the placeholder email form with a real provider embed (ConvertKit, Mailchimp, or Beehiiv)
-- [ ] Create and host the free 4-week HIIT routine PDF mentioned in the signup section
-- [ ] Test the signup flow end-to-end (submit → confirmation email → PDF delivery)
+- [X] Replace the placeholder email form with a real provider embed (ConvertKit, Mailchimp, or Beehiiv)
+- [X] Create and host the free 4-week HIIT routine PDF mentioned in the signup section
+- [X] Test the signup flow end-to-end (submit → confirmation email → PDF delivery)
 
 ### Contact & Social
-- [ ] Verify the contact email is set up and receiving mail
+- [X] Verify the contact email is set up and receiving mail
 
 ### Legal & Privacy
-- [ ] Review all copy for accuracy before going public
+- [X] Review all copy for accuracy before going public
 
 ### "Coming Soon" Toggles
 - [ ] If the app IS live: ensure "Coming soon" paragraphs remain commented out and App Store buttons are visible
